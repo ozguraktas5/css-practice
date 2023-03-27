@@ -1,0 +1,37 @@
+body{
+    background-image: url(../img/resim4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aylar{
+    background-color: rgb(193, 135, 222);
+    width: 20%;
+    padding-bottom: 5px;
+    
+}
+
+.mevsimler{
+    background-color: rgb(219, 222, 135);
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+.gunler{
+    background-color: rgb(135, 222, 210);
+    width: 20%;
+    padding-bottom: 5px;
+}
