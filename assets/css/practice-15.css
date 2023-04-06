@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8FBC8F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 33.3%;
+    padding: 8rem;
+}
+
+section.cards .price{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: ease-in-out,0.3s;
+}
+
+.price:hover{
+    box-shadow: 0 5px 10px 0 rgb(193, 2, 193);
+}
+
+.price .header{
+    background-color: #1d1357;
+    color: white;
+    font-size: 35px;
+}
+
+.price li{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.price .custom{
+    font-size: 2rem;
+}
+
+.button{
+    border: 1px solid #1D1357;
+    background: linear-gradient(45deg,#1d1357, purple, lightgray);
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    
+
+}
+
+.button:hover{
+    opacity: 0.5;
+}
